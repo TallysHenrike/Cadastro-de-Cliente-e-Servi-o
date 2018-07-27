@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+#signin {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;  
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+/* MENU PRINCIPAL */
+.navbar{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.menu-principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+.item-menu-principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+  font-size: 4em;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none !important;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  transition: .3s;
+}
+/*
+.table-responsive{
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+}
